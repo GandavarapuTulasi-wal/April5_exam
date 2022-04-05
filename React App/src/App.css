@@ -1,0 +1,186 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.todo-user-input {
+  background-color: white;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: rgb(0, 0, 95);
+  font-weight: 600;
+}
+button {
+  background-color: rgb(38, 38, 236);
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.delete {
+  background-color: red;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 5px;
+}
+.box {
+  margin: 10px;
+  border: 2px solid #e4e7eb;
+  padding: 40px;
+  padding-right: 60px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #ffffff;
+  width: 400px;
+}
+.item {
+  margin: 30px;
+}
+#products {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  margin: 20px;
+}
+
+#products td,
+#products th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#products tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#products tr:hover {
+  background-color: #ddd;
+}
+
+#products th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+.text-danger {
+  color: red;
+  font-weight: 500;
+}
+.link {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.heading {
+  color: #ffffff;
+  margin-left: 10px;
+}
+.nav {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+}
+.button-container {
+  display: flex;
+}
+.save-box {
+  margin: 10px;
+  border: 2px solid #e4e7eb;
+  padding: 40px;
+  padding-right: 60px;
+  width: 300px;
+}
+li {
+  font-size: 20px;
+  color: rgb(5, 14, 26);
+  font-weight: 600;
+}
+.list-values {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  margin-right: 10px;
+}
+.file_input {
+  border: 1px solid;
+}
+.error {
+  color: red;
+  font-weight: 600;
+}
+.cards {
+  display: flex;
+}
+.container {
+  background-color: rgb(6, 6, 54);
+  display: flex;
+}
+.button-align {
+  text-align: right;
+}
